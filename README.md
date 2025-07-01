@@ -68,7 +68,7 @@ SkillShowcase/
 │   │   ├── Navbar.jsx
 │   │   ├── Sidebar.jsx
 │   │   ├── PostCard.jsx
-│   │
+│   │   ├── Feed.jsx
 │   ├── data/
 │   │   └── dummyData.json
 │   │
