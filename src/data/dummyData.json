@@ -1,0 +1,142 @@
+{
+  "leaderboard": ["Riya", "Amon", "Ananya", "Astha", "Aman"],
+  "topProjects": ["Smart Queue Manager", "SkillXchange", "NutriSnap"],
+  "topSkills": ["WebDev", "AI", "React", "NodeJS", "MongoDB"],
+  "posts": [
+    {
+      "type": "Project",
+      "title": "AI-Powered Resume Parser",
+      "link": "https://github.com/user/resume-parser",
+      "tags": ["AI", "WebDev"],
+      "likes": 120,
+      "comments": 34,
+      "saves": 58
+    },
+    {
+      "type": "Certification",
+      "title": "AWS Certified Solutions Architect",
+      "link": "https://aws.amazon.com/certification/verify/123",
+      "tags": ["Cloud", "AWS"],
+      "likes": 95,
+      "comments": 15,
+      "saves": 40
+    },
+    {
+      "type": "Coding Rank",
+      "title": "Top 100 on LeetCode India",
+      "link": "https://leetcode.com/user",
+      "tags": ["DSA", "Competitive"],
+      "likes": 200,
+      "comments": 50,
+      "saves": 90
+    },
+    {
+      "type": "Research Paper",
+      "title": "Quantum Computing in Cryptography",
+      "link": "https://arxiv.org/pdf/1234.56789.pdf",
+      "tags": ["Quantum", "Research"],
+      "likes": 88,
+      "comments": 22,
+      "saves": 30
+    },
+    {
+      "type": "Internship",
+      "title": "Frontend Developer at Zomato",
+      "link": "https://zomato.com/intern-offer.pdf",
+      "tags": ["React", "Frontend"],
+      "likes": 130,
+      "comments": 18,
+      "saves": 47
+    },
+    {
+      "type": "Project",
+      "title": "SkillXchange Platform",
+      "link": "https://github.com/riya/skillxchange",
+      "tags": ["WebDev", "React", "NodeJS"],
+      "likes": 150,
+      "comments": 40,
+      "saves": 60
+    },
+    {
+      "type": "Certification",
+      "title": "Google Cloud Digital Leader",
+      "link": "https://cloud.google.com/certification",
+      "tags": ["Cloud", "GCP"],
+      "likes": 110,
+      "comments": 19,
+      "saves": 39
+    },
+    {
+      "type": "Coding Rank",
+      "title": "Codeforces Specialist",
+      "link": "https://codeforces.com/profile/riya",
+      "tags": ["DSA", "Codeforces"],
+      "likes": 85,
+      "comments": 12,
+      "saves": 25
+    },
+    {
+      "type": "Research Paper",
+      "title": "AI in Healthcare Queue Optimization",
+      "link": "https://journal.ai-health.org/123",
+      "tags": ["AI", "Healthcare"],
+      "likes": 140,
+      "comments": 26,
+      "saves": 50
+    },
+    {
+      "type": "Internship",
+      "title": "Backend Developer at Paytm",
+      "link": "https://paytm.com/backend-intern.pdf",
+      "tags": ["NodeJS", "Backend"],
+      "likes": 100,
+      "comments": 17,
+      "saves": 33
+    },
+    {
+      "type": "Project",
+      "title": "AI Chatbot Assistant",
+      "link": "https://github.com/user/chatbot-assistant",
+      "tags": ["AI", "Chatbot"],
+      "likes": 78,
+      "comments": 24,
+      "saves": 31
+    },
+    {
+      "type": "Internship",
+      "title": "UI Designer at Canva",
+      "link": "https://canva.com/ui-intern-offer.pdf",
+      "tags": ["Design", "Frontend"],
+      "likes": 112,
+      "comments": 14,
+      "saves": 49
+    },
+    {
+      "type": "Research Paper",
+      "title": "Blockchain for Education Records",
+      "link": "https://ieeexplore.ieee.org/blockchain-edu-paper",
+      "tags": ["Blockchain", "Research"],
+      "likes": 94,
+      "comments": 10,
+      "saves": 42
+    },
+    {
+      "type": "Coding Rank",
+      "title": "Top 50 GFG Practice Users",
+      "link": "https://geeksforgeeks.org/profile",
+      "tags": ["DSA", "GFG"],
+      "likes": 66,
+      "comments": 8,
+      "saves": 20
+    },
+    {
+      "type": "Certification",
+      "title": "Meta Frontend Developer",
+      "link": "https://coursera.org/certificate/meta-frontend",
+      "tags": ["Frontend", "React"],
+      "likes": 88,
+      "comments": 16,
+      "saves": 33
+    }
+  ]
+}
