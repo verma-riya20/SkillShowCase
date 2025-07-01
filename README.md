@@ -1,12 +1,106 @@
-# React + Vite
+ 📘 SkillShowcase Explore Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant and responsive frontend project built to showcase user skills through various posts like Projects, Certifications, Internships, Research Papers, and Coding Ranks. Designed for recruiters, learners, and developers to explore others' achievements in a clean UI format.
 
-Currently, two official plugins are available:
+ 🧩 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The SkillShowcase Explore Page is a frontend-only web interface built using React and Tailwind CSS. It displays user-generated content (dummy/static data) in a visually appealing masonry layout. Sidebar options allow for filtering, sorting, and browsing through top skills and projects.
 
-## Expanding the ESLint configuration
+This project was built for UI/UX evaluation and showcases animation, responsiveness, clean component structuring, and creative styling — all without backend logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+⚙️ Tech Stack
+
+* React.js – Frontend library for building the UI
+* Tailwind CSS– Utility-first CSS framework for rapid styling
+* Lucide React – Icon library for lightweight SVG icons
+* Static JSON Data– For dummy content simulation
+
+---
+
+🚀 Key Features
+
+📌 Main Feed (Post Cards):
+
+* Each post displays one of the following:
+
+  * Project (Title + GitHub link)
+  * Certification (Name + Certificate link)
+  * Coding Rank (Platform + Profile link)
+  * Research Paper (Title + Source link)
+  * Internship (Role + Company name + Offer letter link)
+* Includes:
+
+  * Skill tags (e.g., #WebDev, #AI)
+  * Like 👍, Comment 💬, Save 🔖 (non-functional)
+  * Hover animation, shadow elevation, and border transitions
+
+📂 Sidebar (Sectional Panel):
+
+* User Dashboard (sample/dummy user info)
+* Leaderboard – Top 5 users
+* Top Projects – Display popular dummy projects
+* Top Skills – Tag display (e.g., React, AI, NodeJS)
+* Sort by: Recent, Most Liked, Saved, Commented
+* Filter by Type: Project, Internship, Certification, etc.
+
+🌐 Responsive Design
+
+* Mobile-first layout
+* Masonry-style cards with media query-based grid adaption
+* Mobile navigation toggle
+
+🔍 Dynamic Features
+
+* Search bar to filter posts by tag or title
+* Animated navigation and card transitions
+
+---
+
+📁 Folder Structure
+
+```
+SkillShowcase/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── PostCard.jsx
+│   │
+│   ├── data/
+│   │   └── dummyData.json
+│   │
+│   ├── App.jsx
+│   └── index.css
+│
+├── public/
+└── README.md
+```
+
+---
+
+📌 How to Run
+
+```bash
+npm install
+npm start
+```
+
+Project runs at `http://localhost:3000`.
+
+---
+
+💡 Future Improvements
+
+* Dark mode toggle 🌙
+* Backend integration with Firebase or MongoDB
+* Bookmark, like, comment functionality (real)
+* Admin dashboard and user login system
+
+---
+
+ 👤 Author
+
+Built with ❤️ by Riya Verma as part of a frontend evaluation task.
